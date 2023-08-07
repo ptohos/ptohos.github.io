@@ -1,0 +1,248 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html lang="el"><head>
+
+  
+  <meta http-equiv="Content-Language" content="el">
+
+  
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>ΦΥΣ 347 - Εργαστήριο 10</title>
+  
+
+  
+  
+  <script language="JavaScript">
+<!--
+function FP_preloadImgs() {//v1.0
+ var d=document,a=arguments; if(!d.FP_imgs) d.FP_imgs=new Array();
+ for(var i=0; i<a.length; i++) { d.FP_imgs[i]=new Image; d.FP_imgs[i].src=a[i]; }
+}
+
+function FP_swapImg() {//v1.0
+ var doc=document,args=arguments,elm,n; doc.$imgSwaps=new Array(); for(n=2; n<args.length;
+ n+=2) { elm=FP_getObjectByID(args[n]); if(elm) { doc.$imgSwaps[doc.$imgSwaps.length]=elm;
+ elm.$src=elm.src; elm.src=args[n+1]; } }
+}
+
+function FP_getObjectByID(id,o) {//v1.0
+ var c,el,els,f,m,n; if(!o)o=document; if(o.getElementById) el=o.getElementById(id);
+ else if(o.layers) c=o.layers; else if(o.all) el=o.all[id]; if(el) return el;
+ if(o.id==id || o.name==id) return o; if(o.childNodes) c=o.childNodes; if(c)
+ for(n=0; n<c.length; n++) { el=FP_getObjectByID(id,c[n]); if(el) return el; }
+ f=o.forms; if(f) for(n=0; n<f.length; n++) { els=f[n].elements;
+ for(m=0; m<els.length; m++){ el=FP_getObjectByID(id,els[n]); if(el) return el; } }
+ return null;
+}
+// -->
+  </script></head><body topmargin="0" leftmargin="0" onload="FP_preloadImgs(/*url*/'../buttons/home2.gif', /*url*/'../buttons/home3.gif', /*url*/'../buttons/biblio2.gif', /*url*/'../buttons/biblio3.gif', /*url*/'../buttons/lecture2.gif', /*url*/'../buttons/lecture3.gif', /*url*/'../buttons/hwork3.gif', /*url*/'../buttons/hwork2.gif', /*url*/'../buttons/exams2.gif', /*url*/'../buttons/exams3.gif', /*url*/'../buttons/grade2.gif', /*url*/'../buttons/grade3.gif', /*url*/'../buttons/mail2.gif', /*url*/'../buttons/mail3.gif', /*url*/'../buttons/info2.gif', /*url*/'../buttons/info3.gif', /*url*/'../buttons/study3.gif', /*url*/'../buttons/study2.gif')">
+<table bgcolor="#ccffcc" cellpadding="0" cellspacing="0" height="1646" width="100%">
+
+<!-- MSTableType="layout" --> <tbody>
+    <tr>
+      <td>&nbsp;</td>
+      <td colspan="3" height="41" valign="top">&nbsp;</td>
+    </tr>
+    <tr>
+      <td><br>
+      </td>
+      <td><br>
+      </td>
+      <td><br>
+      </td>
+      <td height="11"><br>
+      </td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td><br>
+      </td>
+      <td height="203" valign="top">
+      <table border="0" cellpadding="0" cellspacing="0" height="100%" width="100%">
+<!-- MSCellFormattingTableID="1" --> <tbody>
+          <tr>
+            <td height="100%" width="100%"><!-- MSCellFormattingType="content" -->
+            <table style="width: 773px; height: 168px;" border="0" cellpadding="10" cellspacing="0">
+              <tbody>
+                <tr>
+                  <td align="center" height="100%" width="100%">
+                  <p align="center"> <span style="vertical-align: middle; letter-spacing: 1px;"> <font color="#000080"> <b><span lang="el"><font size="5">ΦΥΣ 347:</font></span></b>
+                  <font size="5"><b><font color="#800000">Υπολογιστικές
+Μέθοδοι στη Φυσική <span style="font-style: italic;">II</span></font></b></font></font></span></p>
+                  <font color="#000080"> </font>
+                  <p align="center"><span style="vertical-align: middle; letter-spacing: 1px;"><font color="#000080"><font size="5"><b><font color="#800000"><span style="font-style: italic;"><br>
+                  </span><br>
+Εργαστήριο 10<span style="font-style: italic;"><br>
+                  </span></font></b></font></font></span><font color="#000080"> <span style="font-weight: bold;"></span></font></p>
+                  <span style="font-weight: bold;"></span> <font color="#000080"> </font> <font color="#000080"> </font></td>
+                </tr>
+                <tr>
+                  <td align="center" height="100%" width="100%"> &nbsp;</td>
+                </tr>
+              </tbody>
+            </table>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      </td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td height="34">&nbsp;</td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td height="36">&nbsp;</td>
+      <td rowspan="3" valign="top">
+      <table border="0" cellpadding="0" cellspacing="0" height="100%" width="100%">
+<!-- MSCellFormattingTableID="3" --> <tbody>
+          <tr>
+            <td height="100%" width="100%"><!-- MSCellFormattingType="content" -->
+            <table border="0" cellpadding="10" cellspacing="0" height="100%" width="100%">
+              <tbody>
+                <tr>
+                  <td height="100%" valign="top" width="100%">
+                  <p>&nbsp; </p>
+                   <br>
+1) Χρησιμοποιήστε το πρόγραμμα <a href="ExampleLikelihoodFit.C">ExampleLikelihoodFit.C</a> και το λογισμικό ROOT για να υπολογίσετε την παράμετρο <span style="font-style: italic;">k </span>που περιγράφεται στο παράδειγμα της σελίδας 11 της διάλεξης 9.<br>
+                  <br>
+                  <br>2)
+Θεωρήστε το πρόβλημα προσδιορισμού του χρόνου ζωής ενός σωματιδίου το
+οποίο μπορεί να σταματήσει σε κάποιον ανιχνευτή, μετρώντας τις
+διασπάσεις του υπό την παρουσία σταθερού υποβάθρου. Ο ρυθμός διάσπασης
+δίνεται από τη σχέση R(t) = A + B exp(-Γτ). Θεωρούμε ότι οι πραγματικές
+τιμές των παραμέτρων Α, Β και Γ&nbsp; είναι αντίστοιχα Α=1/sec, B=2/sec
+και Γ=3/sec. Κάθε φορά που σταματούμε ένα σωματίδιο στον αντιχνευτή μας
+θα περιμένουμε ως ένα μέγιστο χρόνο <span style="font-style: italic;">t<sub>max</sub>=3sec. </span>Μπορούμε
+να φανταστούμε ότι κάνουμε το πείραμα πολλές φορές ώστε να μαζέψουμε
+αρκετά δεδομένα, άλλωστε κάθε πείραμα διαρκεί 3 sec.<br>
+(Α) Δημιουργήστε αρχικά μερικά ψευδο-δεδομένα. Θα το κάνετε αυτό
+χρησιμοποιώντας τεχνικές Monte Carlo όπως η μέθοδος τηε απόρριψης.
+Υποθέστε ότι θέλετε να δημιουργήσετε γεγονότα τα οποία έχουν κατανομή
+που ακολουθεί την συνάρτηση πυκνότητας πιθανότητας <span style="font-style: italic;">f</span> (<span style="font-style: italic;">x</span>). Προφανώς αυτό θα επιτευχθεί δημιουργώντας τυχαία ζεύγη (<span style="font-style: italic;">x<sub>i</sub>,y<sub>i</sub></span> ) και κρατώντας μόνο αυτά για τα οποία ισχύσει <span style="font-style: italic;">y<sub>i</sub>&lt;=f </span>(<span style="font-style: italic;">x<sub>i</sub></span> ).<br>
+Θα δημιουργήσετε ψευδο-δεδομένα ως εξής: Ο μέγιστοςε ρυθμός είναι για <span style="font-style: italic;">t</span>=0 όπου <span style="font-style: italic;">R<sub>max</sub>=A + B. </span>Επιλέξτε ένα <span style="font-style: italic;">x</span>, τον χρόνο<span style="font-style: italic;"> t</span> της διάσπασης (τυχαίο μεταξύ 0 και <span style="font-style: italic;">t<sub>max</sub><span style="font-style: italic;"><span style="font-style: italic;"><span style="font-style: italic;"> </span></span></span></span>) και επιλέξτε επίσης ένα τυχαίο ρυθμό <span style="font-style: italic;">R </span>μεταξύ 0 και <span style="font-style: italic;">R<sub><sup>max</sup></sub>.&nbsp; </span>Χρησιμοποιήστε την <span style="font-style: italic;">pdf&nbsp; </span>για
+να αποφασίσετε αν θα κρατήσετε ή απορρίψετε το γεγονός. Δημιουργήστε
+ένα ικανοποιητικό αριθμό γεγονότων. Πόσο ποσοστό γεγονότων κρατάτε κατά
+την δημιουργία του ψευδο-δείγματος;&nbsp; <br>
+                  <span style="font-style: italic;"><span style="font-style: italic;"><span style="font-style: italic;"><span style="font-style: italic;"> </span></span></span></span><br>
+(Β) Υπολογίστε την -logL για τα δεδομένα σας και η pdf θα πρέπει να είναι κανονικοποιημένη κατάλληλα ώστε <img style="width: 101px; height: 47px;" alt="" src="Lab10_1.jpg" align="middle"><br>
+Με βάση την κανονικοποίηση μπορείτε να ορίσετε την likelihood συναρτήσει δύο μεταβλητών Γ και <span style="font-style: italic;">k=A/B.<br>
+                  <span style="font-style: italic;"><span style="font-style: italic;"><span style="font-style: italic;"><span style="font-style: italic;"><span style="font-style: italic;"><span style="font-style: italic;"><span style="font-style: italic;"><span style="font-style: italic;"></span></span></span></span></span></span></span></span></span>Θα
+μελετήσετε τα προσομοιωμένα γεγονότα υποθέτοντας ότι δεν ξέρετε τις
+τιμές των Α, Β και Γ που χρησιμοποιήσατε για να τα δημιουργήσετε.
+Θέλουμε να υπολογίσουμε την τιμή του Γ από τα δεδομένα. Γράχτε τον
+κώδικα για να υπολογίσετε την αρνητική log&nbsp; likelihood:&nbsp; <span style="font-style: italic;"><span style="font-style: italic;"><span style="font-style: italic;">&nbsp;<img style="width: 145px; height: 45px;" alt="" src="Lab10_2.jpg" align="middle">&nbsp; </span></span></span>όπου t<sub>i</sub> είναι οι τιμές χρόνου που επιλέξατε κατά την δημιουργία του ψευδο-δείγματος. <br>
+                  <br>
+(Γ) Θα υπολογίσετε το ελάχιστο της συνάρτησης -logL μελετώντας την
+συμπεριφορά της συνάρτησης. Κάντε το γράφημα της συνάρτησης -lnL όπως
+την υπολογίσατε στο προηγούμενο ερώτημα και καθώς μεταβάλλεται τις
+τιμές των <span style="font-style: italic;">k </span>και Γ στην περιοχή της σωστής απάντησης (<span style="font-style: italic;">k</span>
+= 0.5 και Γ = 2). Πόσο κοντά είναι η τιμή του Γ που δίνει το ελάχιστο
+της log likelihood στην πραγματική τιμή του Γ; Κάντε το ίδιο αλλά αυτή
+τη φορά χρησιμοποιώντας 10 φορές περισσότερα δεδομένα. Πόσο κοντά είναι
+στην πραγματική τιμή τους οι παράμετροι; <br>
+                  <br>
+(Δ) Για μεγάλο αριθμό δεδομένων είδαμε ότι -2lnL κατανέμεται όπως η κατανομή<span style="font-style: italic;"> <span style="font-style: italic;"></span>χ</span><sup>2</sup>
+και η αβεβαιότητα στην εκτίμηση μίας παραμέτρου της συνάρτησης μπορεί
+να βρεθεί&nbsp; από το να υπολογίσουμε πόσο θα πρέπει να αλλάξουμε την
+τιμή της παραμέτρου ώστε να αλλάξει το -2lnL κατά μία μονάδα.
+Υποθέτοντας ότι ξέρετε το <span style="font-style: italic;">k</span>
+ακριβώς να κάνετε το γράφημα της&nbsp; -2lnL συναρτήσει της&nbsp; Γ για
+τιμές του Γ γύρω στο μέγιστο τηε&nbsp; likelihood και δείξτε την
+αβεβαιότητα στη μετρούμενη τιμή της Γ.<br>
+                  <br>
+Προσπαθήστε να τρέξετε τον κώδικά σας για διαφορετικό αριθμό γεγονότων
+για κάθε ψευδο-πείραμα και δοκιμάστε να τρέξετε για μεγάλο αριθμό
+ψευδο-πειραμάτων. Μπορείτε να εξακριβώσετε αν στο 68% των
+περιπτώσεων&nbsp; η πραγματική τιμή βρίσκεται στην περιοχή που ΔL=1;<br>
+                  <br>
+Συγκρίνετε το πρόγραμμά σας με το <a href="Lab10_prob.C">Lab10_prob.C</a> το οποίο μπορείτε να τρέξετε μέσα στο λογισμικό ROOT.<br>
+                  <br>
+&nbsp;<br>
+                  <br>
+                  </td>
+                </tr>
+                <tr>
+                  <td height="100%" valign="top" width="100%"> &nbsp;</td>
+                </tr>
+              </tbody>
+            </table>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      </td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td valign="top">
+      <table border="0" cellpadding="0" cellspacing="0" height="100%" width="100%">
+<!-- MSCellFormattingTableID="2" --> <tbody>
+          <tr>
+            <td colspan="3" bgcolor="#000000" height="1"> <img alt="" src="../buttons/MsSpacer.gif" height="1" width="1"></td>
+          </tr>
+          <tr>
+            <td bgcolor="#000000" width="1"> <img alt="" src="../buttons/MsSpacer.gif" height="1" width="1"></td>
+            <td width="100%"><!-- MSCellFormattingType="content" -->
+            <table border="0" cellpadding="10" cellspacing="0" height="100%" width="100%">
+              <tbody>
+                <tr>
+                  <td height="100%" valign="top" width="100%">
+                  <p align="center"><a href="../phy347.html"> <img id="img1" src="../buttons/home1.gif" alt=" Home" onmouseover="FP_swapImg(1,0,/*id*/'img1',/*url*/'../buttons/home2.gif')" onmouseout="FP_swapImg(0,0,/*id*/'img1',/*url*/'../buttons/home1.gif')" onmousedown="FP_swapImg(1,0,/*id*/'img1',/*url*/'../buttons/home3.gif')" onmouseup="FP_swapImg(0,0,/*id*/'img1',/*url*/'../buttons/home2.gif')" fp-style="fp-btn: Jewel 1; fp-font-color-hover: #FF0000; fp-font-color-press: #000080; fp-justify-horiz: 0; fp-transparent: 1; fp-orig: 0" fp-title=" Home" border="0" height="20" width="100"></a></p>
+                  <p align="center"><a href="../Biblio.html"> <img id="img2" src="../buttons/biblio1.gif" alt=" Bιβλιογραφία" onmouseover="FP_swapImg(1,0,/*id*/'img2',/*url*/'../buttons/biblio2.gif')" onmouseout="FP_swapImg(0,0,/*id*/'img2',/*url*/'../buttons/biblio1.gif')" onmousedown="FP_swapImg(1,0,/*id*/'img2',/*url*/'../buttons/biblio3.gif')" onmouseup="FP_swapImg(0,0,/*id*/'img2',/*url*/'../buttons/biblio2.gif')" fp-style="fp-btn: Jewel 3; fp-font-color-hover: #800000; fp-font-color-press: #0000FF; fp-justify-horiz: 0; fp-transparent: 1; fp-orig: 0" fp-title=" Bιβλιογραφία" border="0" height="20" width="100"></a></p>
+                  <p align="center"><a href="../Lectures.html"> <img id="img3" src="../buttons/lecture1.gif" alt=" Διαλέξεις" onmouseover="FP_swapImg(1,0,/*id*/'img3',/*url*/'../buttons/lecture2.gif')" onmouseout="FP_swapImg(0,0,/*id*/'img3',/*url*/'../buttons/lecture1.gif')" onmousedown="FP_swapImg(1,0,/*id*/'img3',/*url*/'../buttons/lecture3.gif')" onmouseup="FP_swapImg(0,0,/*id*/'img3',/*url*/'../buttons/lecture2.gif')" fp-style="fp-btn: Jewel 4; fp-font-color-hover: #000080; fp-font-color-press: #800000; fp-justify-horiz: 0; fp-transparent: 1; fp-orig: 0" fp-title=" Διαλέξεις" border="0" height="20" width="100"></a></p>
+                  <p align="center"><a href="../Labs.html"> <img style="border: 0px solid ; width: 100px; height: 20px;" id="img4" src="../buttons/lab01.gif" alt="Εργαστήρια" onmouseover="FP_swapImg(1,0,/*id*/'img4',/*url*/'../buttons/lab02.gif')" onmouseout="FP_swapImg(0,0,/*id*/'img4',/*url*/'../buttons/lab01.gif')" onmousedown="FP_swapImg(1,0,/*id*/'img4',/*url*/'../buttons/lab03.gif')" onmouseup="FP_swapImg(0,0,/*id*/'img4',/*url*/'../buttons/lab02.gif')" fp-style="fp-btn: Simple Arrow 1; fp-font-color-hover: #800000; fp-font-color-press: #000080; fp-justify-horiz: 0; fp-transparent: 1" fp-title="Εργαστήρια" align="middle"></a></p>
+                  <p align="center"><a href="../Homeworks.html"><img style="border: 0px solid ; width: 100px; height: 20px;" id="img5" src="../buttons/hwork1.gif" alt="Ασκήσεις" onmouseover="FP_swapImg(1,0,/*id*/'img5',/*url*/'../buttons/hwork2.gif')" onmouseout="FP_swapImg(0,0,/*id*/'img5',/*url*/'../buttons/hwork1.gif')" onmousedown="FP_swapImg(1,0,/*id*/'img5',/*url*/'../buttons/hwork3.gif')" onmouseup="FP_swapImg(0,0,/*id*/'img5',/*url*/'../buttons/hwork2.gif')" fp-style="fp-btn: Jewel 2; fp-font-color-hover: #800000; fp-font-color-press: #000080; fp-justify-horiz: 0; fp-transparent: 1" fp-title=" Ασκήσεις"></a></p>
+                  <p align="center"><a href="../Exams.html"> <img style="border: 0px solid ; width: 100px; height: 20px;" id="img9" src="../buttons/exams1.gif" alt="Eξετάσεις" fp-style="fp-btn: Simple Arrow 1; fp-font-color-hover: #800000; fp-font-color-press: #000080; fp-justify-horiz: 0; fp-transparent: 1" fp-title=" Eξετάσεις" onmouseover="FP_swapImg(1,0,/*id*/'img9',/*url*/'../buttons/exams2.gif')" onmouseout="FP_swapImg(0,0,/*id*/'img9',/*url*/'../buttons/exams1.gif')" onmousedown="FP_swapImg(1,0,/*id*/'img9',/*url*/'../buttons/exams3.gif')" onmouseup="FP_swapImg(0,0,/*id*/'img9',/*url*/'../buttons/exams2.gif')" align="middle"></a></p>
+                  <p align="center"><a href="../Info.html"> <img id="img10" src="../buttons/info1.gif" alt=" Ανακοινώσεις" onmouseover="FP_swapImg(1,0,/*id*/'img10',/*url*/'../buttons/info2.gif')" onmouseout="FP_swapImg(0,0,/*id*/'img10',/*url*/'../buttons/info1.gif')" onmousedown="FP_swapImg(1,0,/*id*/'img10',/*url*/'../buttons/info3.gif')" onmouseup="FP_swapImg(0,0,/*id*/'img10',/*url*/'../buttons/info2.gif')" fp-style="fp-btn: Simple Arrow 3; fp-font-color-hover: #800000; fp-font-color-press: #000080; fp-justify-horiz: 0; fp-transparent: 1; fp-orig: 0" fp-title=" Ανακοινώσεις" border="0" height="20" width="100"></a></p>
+                  <p align="center"><a href="../Grades.html"> <img id="img14" src="../buttons/grade1.gif" alt=" Βαθμολογία" onmouseover="FP_swapImg(1,0,/*id*/'img14',/*url*/'../buttons/grade2.gif')" onmouseout="FP_swapImg(0,0,/*id*/'img14',/*url*/'../buttons/grade1.gif')" onmousedown="FP_swapImg(1,0,/*id*/'img14',/*url*/'../buttons/grade3.gif')" onmouseup="FP_swapImg(0,0,/*id*/'img14',/*url*/'../buttons/grade2.gif')" fp-style="fp-btn: Braided Column 1; fp-font-color-hover: #800000; fp-font-color-press: #000080; fp-justify-horiz: 0; fp-transparent: 1; fp-orig: 0" fp-title=" Βαθμολογία" border="0" height="20" width="100"></a></p>
+                  <p align="center"> <a href="mailto:f.ptohos@ucy.ac.cy"> <img id="img15" src="../buttons/mail1.gif" alt=" Eπικοινωνία" fp-style="fp-btn: Braided Column 3; fp-font-color-hover: #800080; fp-font-color-press: #000080; fp-justify-horiz: 0; fp-transparent: 1; fp-orig: 0" fp-title=" Eπικοινωνία" onmouseover="FP_swapImg(1,0,/*id*/'img15',/*url*/'../buttons/mail2.gif')" onmouseout="FP_swapImg(0,0,/*id*/'img15',/*url*/'../buttons/mail1.gif')" onmousedown="FP_swapImg(1,0,/*id*/'img15',/*url*/'../buttons/mail3.gif')" onmouseup="FP_swapImg(0,0,/*id*/'img15',/*url*/'../buttons/mail2.gif')" border="0" height="20" width="100"></a></p>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+            </td>
+            <td bgcolor="#000000" height="100%" width="1"> <img alt="" src="../buttons/MsSpacer.gif" height="1" width="1"></td>
+          </tr>
+          <tr>
+            <td colspan="3" bgcolor="#000000" height="1"> <img alt="" src="../buttons/MsSpacer.gif" height="1" width="1"></td>
+          </tr>
+        </tbody>
+      </table>
+      </td>
+      <td height="325">&nbsp;</td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td><a href="../Homeworks.html">&nbsp;</a></td>
+      <td height="445">&nbsp;</td>
+    </tr>
+    <tr>
+      <td width="14">&nbsp;</td>
+      <td width="122">&nbsp;</td>
+      <td width="16">&nbsp;</td>
+      <td height="551" width="100%">&nbsp;</td>
+    </tr>
+    <tr>
+      <td><img alt="" src="../buttons/MsSpacer_left.gif" height="1" width="14"></td>
+      <td><br>
+      </td>
+      <td><br>
+      </td>
+      <td><br>
+      </td>
+    </tr>
+    <tr>
+      <td><img alt="" src="../buttons/MsSpacer_left.gif" height="1" width="14"></td>
+      <td><img alt="" src="../buttons/MsSpacer_left.gif" height="1" width="122"></td>
+      <td><img alt="" src="../buttons/MsSpacer_left.gif" height="1" width="16"></td>
+      <td><br>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+</body></html>

@@ -1,0 +1,24 @@
+CMS,p,p,10000D0     !  p p collisions@CM of 10TeV
+1000000,1           !  No of events to generate and events to print
+diphoton.dat        !  Filename for output events
+22, 30D0, 2         !  Particle ID to select events, Min PT cut and No events 
+!==================
+! Process handling
+!==================
+MSEL=0
+MSUB(18)=1          ! Process number   3 f  + fbar-> h0
+MSUB(114)=1         ! process number 114 g  + g   -> h0
+!===============================
+! Hard process parton handling
+!===============================
+!PMAS(25,1)=115D0   ! Set mass of H
+ CKIN(3) = 30D0      !
+!=====================================
+! Parameter setting for global events
+!=====================================
+MSTP(61)=0     ! ISR   initial state radiation OFF 
+MSTP(71)=0     ! FSR   final state radiation OFF
+MSTP(111)=0    ! Hadronization  OFF  make the event simple
+MSTP(81)=0     ! Multiple interactions off
+MSTU(1)=25
+MSTU(2)=25
