@@ -1,0 +1,50 @@
+#!/usr/bin/python3
+''' 
+Usage (v1):
+   chmod +x <filename>
+   python3  <filename>
+
+Usage (v2):
+python3 
+import <filename>
+
+Description:
+Example incorporating most of the things covered in this tutorial and previouu ones
+until now.
+
+Links:
+https://www.w3schools.com/python/python_lists_comprehension.asp
+'''
+from myFunctions import *
+
+print("=== Example A (2x2):")
+A = [ [7, 5], [6, 3] ]
+B = [ [2, 1], [5, 1] ]
+#           | A[0][0]xB[0][0] + A[0][1]xB[1][0]    A[0][0]xB[0][1] + A[0][1]xB[1][1] |
+# C = AxB = |                                                                        |
+#           | A[1][0]xB[0][0] + A[1][1]xB[1][0]    A[1][0]xB[0][1] + A[1][1]xB[1][1] |
+#
+#           | (7x2 + 5x5)    (7x1 + 5x1) | 
+# C = AxB = |                            | 
+#           | (6x2 + 3x5)    (6x1 + 3x1) | 
+#
+C = multiplyMatrices(A, B)
+printMatrix(C)
+
+
+print("=== \nExample B (3x3):")
+A = getIdentityMatrix(3, 3, +1)
+B = getIdentityMatrix(3, 3, 5)
+C = multiplyMatrices(A, B)
+printMatrix(C)
+
+
+print("=== \nExample B (10x10):")
+A = getIdentityMatrix(10, 10, +1)
+B = getIdentityMatrix(10, 10, +1)
+C = multiplyMatrices(A, B)
+printMatrix(C)
+
+print("\n=== Quit!")
+quit()
+
