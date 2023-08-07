@@ -1,0 +1,243 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html lang="el"><head>
+
+  
+  <meta http-equiv="Content-Language" content="el">
+
+  
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>ΦΥΣ 347 - Εργαστήριο 08</title>
+  
+
+  
+  
+  <script language="JavaScript">
+<!--
+function FP_preloadImgs() {//v1.0
+ var d=document,a=arguments; if(!d.FP_imgs) d.FP_imgs=new Array();
+ for(var i=0; i<a.length; i++) { d.FP_imgs[i]=new Image; d.FP_imgs[i].src=a[i]; }
+}
+
+function FP_swapImg() {//v1.0
+ var doc=document,args=arguments,elm,n; doc.$imgSwaps=new Array(); for(n=2; n<args.length;
+ n+=2) { elm=FP_getObjectByID(args[n]); if(elm) { doc.$imgSwaps[doc.$imgSwaps.length]=elm;
+ elm.$src=elm.src; elm.src=args[n+1]; } }
+}
+
+function FP_getObjectByID(id,o) {//v1.0
+ var c,el,els,f,m,n; if(!o)o=document; if(o.getElementById) el=o.getElementById(id);
+ else if(o.layers) c=o.layers; else if(o.all) el=o.all[id]; if(el) return el;
+ if(o.id==id || o.name==id) return o; if(o.childNodes) c=o.childNodes; if(c)
+ for(n=0; n<c.length; n++) { el=FP_getObjectByID(id,c[n]); if(el) return el; }
+ f=o.forms; if(f) for(n=0; n<f.length; n++) { els=f[n].elements;
+ for(m=0; m<els.length; m++){ el=FP_getObjectByID(id,els[n]); if(el) return el; } }
+ return null;
+}
+// -->
+  </script></head><body topmargin="0" leftmargin="0" onload="FP_preloadImgs(/*url*/'../buttons/home2.gif', /*url*/'../buttons/home3.gif', /*url*/'../buttons/biblio2.gif', /*url*/'../buttons/biblio3.gif', /*url*/'../buttons/lecture2.gif', /*url*/'../buttons/lecture3.gif', /*url*/'../buttons/hwork3.gif', /*url*/'../buttons/hwork2.gif', /*url*/'../buttons/exams2.gif', /*url*/'../buttons/exams3.gif', /*url*/'../buttons/grade2.gif', /*url*/'../buttons/grade3.gif', /*url*/'../buttons/mail2.gif', /*url*/'../buttons/mail3.gif', /*url*/'../buttons/info2.gif', /*url*/'../buttons/info3.gif', /*url*/'../buttons/study3.gif', /*url*/'../buttons/study2.gif')">
+<table bgcolor="#ccffcc" cellpadding="0" cellspacing="0" height="1646" width="100%">
+
+<!-- MSTableType="layout" --> <tbody>
+    <tr>
+      <td>&nbsp;</td>
+      <td colspan="3" height="41" valign="top">&nbsp;</td>
+    </tr>
+    <tr>
+      <td><br>
+      </td>
+      <td><br>
+      </td>
+      <td><br>
+      </td>
+      <td height="11"><br>
+      </td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td><br>
+      </td>
+      <td height="203" valign="top">
+      <table border="0" cellpadding="0" cellspacing="0" height="100%" width="100%">
+<!-- MSCellFormattingTableID="1" --> <tbody>
+          <tr>
+            <td height="100%" width="100%"><!-- MSCellFormattingType="content" -->
+            <table style="width: 773px; height: 168px;" border="0" cellpadding="10" cellspacing="0">
+              <tbody>
+                <tr>
+                  <td align="center" height="100%" width="100%">
+                  <p align="center"> <span style="vertical-align: middle; letter-spacing: 1px;"> <font color="#000080"> <b><span lang="el"><font size="5">ΦΥΣ 347:</font></span></b>
+                  <font size="5"><b><font color="#800000">Υπολογιστικές
+Μέθοδοι στη Φυσική <span style="font-style: italic;">II</span></font></b></font></font></span></p>
+                  <font color="#000080"> </font>
+                  <p align="center"><span style="vertical-align: middle; letter-spacing: 1px;"><font color="#000080"><font size="5"><b><font color="#800000"><span style="font-style: italic;"><br>
+                  </span>Εργαστήριο 08<span style="font-style: italic;"><br>
+                  </span></font></b></font></font></span><font color="#000080"> <span style="font-weight: bold;"></span></font></p>
+                  <span style="font-weight: bold;"></span> <font color="#000080"> </font> <font color="#000080"> </font></td>
+                </tr>
+                <tr>
+                  <td align="center" height="100%" width="100%"> &nbsp;</td>
+                </tr>
+              </tbody>
+            </table>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      </td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td height="34">&nbsp;</td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td height="36">&nbsp;</td>
+      <td rowspan="3" valign="top">
+      <table border="0" cellpadding="0" cellspacing="0" height="100%" width="100%">
+<!-- MSCellFormattingTableID="3" --> <tbody>
+          <tr>
+            <td height="100%" width="100%"><!-- MSCellFormattingType="content" -->
+            <table border="0" cellpadding="10" cellspacing="0" height="100%" width="100%">
+              <tbody>
+                <tr>
+                  <td height="100%" valign="top" width="100%">
+                  
+                  <p style="margin-left: 40px;">Μερικές εντολές του root για το πως να ζωγραφίζεται κάποια histograms μπορείτε να βρείτε στο παράδειγμα <a href="https://root.cern.ch/root/html/tutorials/hist/h1draw.C.html">h1draw.C</a>. Αρχικά χρειάζεται να το βάλετε στην μνήμη του root και κατόπιν να το τρέξετε.<br>
+Για να το κάνετε αυτό, ξεκινήστε το root και κατόπιν δώστε τις εντολές:<br>
+                  <span style="font-family: monospace;"><br>
+root<br>
+root&gt; .L h1draw.C&nbsp;&nbsp;&nbsp;&nbsp; # φορτώνετε το κώδικα <br>
+                  </span></p>
+                  <p style="margin-left: 40px;"><span style="font-family: monospace;">root&gt;&nbsp; h1draw();&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; # τρέχετε την συνάρτηση που έχει ο κώδικας</span></p>
+                  <p style="margin-left: 40px;">Τρέχοντας τις εντολές αυτές θα δείτε διάφορα plots <span style="font-style: italic;"></span>να εμφανίζονται.<br>
+Προσπαθήστε να καταλάβετε τι ακριβώς κάνει το παραπάνω πρόγραμμα και θα
+πρέπει αν το κάνετε copy στην δική σας περιοχή να αλλάξετε κάποιες από
+τις εντολές για να δείτε τι ακριβώς συμπεριφορά έχουν.</p>
+                  <p style="margin-left: 40px;">Κατεβάστε το αρχείο <a href="https://root.cern.ch/root/html/tutorials/fit/FittingDemo.C.html">fitting tutorial</a>
+και δοκιμάστε να δείτε πως συμπεριφέρεται. Ο κώδικας δημιουργεί μια
+κατανομή σήματος και υποβάθρου με βάση δεδομένα που δίνονται και
+αφού&nbsp; τα βάλει σε κατάλληλο histogram προχωρεί σε προσαρμογή
+(fitting) χρησιμοποιώντας ως θεωρητικό μοντέλο ένα πολυώνυμο δευτέρου
+βαθμού για το υπόβαθρο (background) και την Lorentzian κατανομή ως
+συνάρτηση του σήματος.&nbsp; Για να το τρέξετε, δώστε τις εντολές:<br>
+                  <br>
+                  <span style="font-family: monospace;">root&gt; .L FittingDemo.C&nbsp;&nbsp; #φόρτωση του προγράμματος στο ROOT<br>
+root&gt; FittingDemo();&nbsp;&nbsp;&nbsp;&nbsp; #χρήση της συνάρτησης FittingDemo<br>
+                  </span></p>
+                  <p style="margin-left: 40px;"><span style="font-family: monospace;"></span>Στο αρχείο <a href="stat.C">stat.C</a>
+μπορείτε να βρείτε 4 συναρτήσεις που κάνουν διαφορετικές εφαρμογές. Για
+να τις δοκιμάσετε, κατεβάστε πρώτα το αρχείο και κατόπιν αφού το
+φορτώσετε στο root μπορείτε να τρέξετε κάθε ένα από τα παραδείγματα.
+Κάθε φορά που το τρέχετε δημιουργείται ένα png αρχείο το οποίο μπορείτε
+να δείτε αργότερα ή να τυπώσετε κλπ <br>
+                  </p>
+                  <p style="margin-left: 40px;"><span style="font-family: monospace;">root&gt; .L stat.C&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; #φόρτωση του προγράμματος στο ROOT<br>
+root&gt; example1();&nbsp;&nbsp;&nbsp; #το όνομα της 1<sup>ης</sup> συνάρτησης  <br>
+root&gt; example2();&nbsp;&nbsp;&nbsp; #το όνομα της 2<sup>ης</sup> συνάρτησης <br>
+root&gt; example3();&nbsp;&nbsp;&nbsp; #το όνομα της 3<sup>ης</sup> συνάρτησης<br>
+root&gt; example4();&nbsp;&nbsp;&nbsp; #το όνομα της 4<sup>ης</sup> συνάρτησης <br>
+                  </span></p>
+                  <p style="margin-left: 40px;">Στο αρχείο <a href="ParticleDecayExample.C">ParticleDecayExample.C</a>
+υπάρχει ένα παράδειγμα για το πως να δημιουργήσετε μία προσομοίωση
+MonteCarlo για την διάσπαση σωματιδίων που έχουν κάποιο χρόνο ζωής και
+η διάσπασή τους ακολουθεί εκθετική κατανομή. Μπορείτε να δώσετε τις
+εντολές:</p>
+                  <p style="margin-left: 40px;"><span style="font-family: monospace;">root&gt;
+.L ParticleDecayExample.C++ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+#φόρτωση και compilation(++) του προγράμματος στο ROOT<br>
+root&gt; doParticleDecays(10000,10.0,20.0)&nbsp;&nbsp; #Δημιουργεί 10000 σωματίδια με ορμή μεταξύ 10 και 20 GeV</span><br>
+                  </p>
+                  <p style="margin-left: 40px;"><span style="font-family: monospace;"></span>Είναι χρήσιμο να ακολουθήσετε <a href="https://root.cern.ch/howtos">αυτό το link</a>
+για να λύσετε κάποιο πρόβλημα ή να&nbsp; αναζητήσετε τον τρόπο για να
+λύσετε κάπoιο πρόβλημα χρησιμοποιώντας το&nbsp; λογισμικό ROOT <br>
+                  </p>
+
+                  
+                  <br>
+                  <br>
+                  </td>
+                </tr>
+                <tr>
+                  <td height="100%" valign="top" width="100%"> &nbsp;</td>
+                </tr>
+              </tbody>
+            </table>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      </td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td valign="top">
+      <table border="0" cellpadding="0" cellspacing="0" height="100%" width="100%">
+<!-- MSCellFormattingTableID="2" --> <tbody>
+          <tr>
+            <td colspan="3" bgcolor="#000000" height="1"> <img alt="" src="../buttons/MsSpacer.gif" height="1" width="1"></td>
+          </tr>
+          <tr>
+            <td bgcolor="#000000" width="1"> <img alt="" src="../buttons/MsSpacer.gif" height="1" width="1"></td>
+            <td width="100%"><!-- MSCellFormattingType="content" -->
+            <table border="0" cellpadding="10" cellspacing="0" height="100%" width="100%">
+              <tbody>
+                <tr>
+                  <td height="100%" valign="top" width="100%">
+                  <p align="center"><a href="../phy347.html"> <img id="img1" src="../buttons/home1.gif" alt=" Home" onmouseover="FP_swapImg(1,0,/*id*/'img1',/*url*/'../buttons/home2.gif')" onmouseout="FP_swapImg(0,0,/*id*/'img1',/*url*/'../buttons/home1.gif')" onmousedown="FP_swapImg(1,0,/*id*/'img1',/*url*/'../buttons/home3.gif')" onmouseup="FP_swapImg(0,0,/*id*/'img1',/*url*/'../buttons/home2.gif')" fp-style="fp-btn: Jewel 1; fp-font-color-hover: #FF0000; fp-font-color-press: #000080; fp-justify-horiz: 0; fp-transparent: 1; fp-orig: 0" fp-title=" Home" border="0" height="20" width="100"></a></p>
+                  <p align="center"><a href="../Biblio.html"> <img id="img2" src="../buttons/biblio1.gif" alt=" Bιβλιογραφία" onmouseover="FP_swapImg(1,0,/*id*/'img2',/*url*/'../buttons/biblio2.gif')" onmouseout="FP_swapImg(0,0,/*id*/'img2',/*url*/'../buttons/biblio1.gif')" onmousedown="FP_swapImg(1,0,/*id*/'img2',/*url*/'../buttons/biblio3.gif')" onmouseup="FP_swapImg(0,0,/*id*/'img2',/*url*/'../buttons/biblio2.gif')" fp-style="fp-btn: Jewel 3; fp-font-color-hover: #800000; fp-font-color-press: #0000FF; fp-justify-horiz: 0; fp-transparent: 1; fp-orig: 0" fp-title=" Bιβλιογραφία" border="0" height="20" width="100"></a></p>
+                  <p align="center"><a href="../Lectures.html"> <img id="img3" src="../buttons/lecture1.gif" alt=" Διαλέξεις" onmouseover="FP_swapImg(1,0,/*id*/'img3',/*url*/'../buttons/lecture2.gif')" onmouseout="FP_swapImg(0,0,/*id*/'img3',/*url*/'../buttons/lecture1.gif')" onmousedown="FP_swapImg(1,0,/*id*/'img3',/*url*/'../buttons/lecture3.gif')" onmouseup="FP_swapImg(0,0,/*id*/'img3',/*url*/'../buttons/lecture2.gif')" fp-style="fp-btn: Jewel 4; fp-font-color-hover: #000080; fp-font-color-press: #800000; fp-justify-horiz: 0; fp-transparent: 1; fp-orig: 0" fp-title=" Διαλέξεις" border="0" height="20" width="100"></a></p>
+                  <p align="center"><a href="../Labs.html"> <img style="border: 0px solid ; width: 100px; height: 20px;" id="img4" src="../buttons/lab01.gif" alt="Εργαστήρια" onmouseover="FP_swapImg(1,0,/*id*/'img4',/*url*/'../buttons/lab02.gif')" onmouseout="FP_swapImg(0,0,/*id*/'img4',/*url*/'../buttons/lab01.gif')" onmousedown="FP_swapImg(1,0,/*id*/'img4',/*url*/'../buttons/lab03.gif')" onmouseup="FP_swapImg(0,0,/*id*/'img4',/*url*/'../buttons/lab02.gif')" fp-style="fp-btn: Simple Arrow 1; fp-font-color-hover: #800000; fp-font-color-press: #000080; fp-justify-horiz: 0; fp-transparent: 1" fp-title="Εργαστήρια" align="middle"></a></p>
+                  <p align="center"><a href="../Homeworks.html"><img style="border: 0px solid ; width: 100px; height: 20px;" id="img5" src="../buttons/hwork1.gif" alt="Ασκήσεις" onmouseover="FP_swapImg(1,0,/*id*/'img5',/*url*/'../buttons/hwork2.gif')" onmouseout="FP_swapImg(0,0,/*id*/'img5',/*url*/'../buttons/hwork1.gif')" onmousedown="FP_swapImg(1,0,/*id*/'img5',/*url*/'../buttons/hwork3.gif')" onmouseup="FP_swapImg(0,0,/*id*/'img5',/*url*/'../buttons/hwork2.gif')" fp-style="fp-btn: Jewel 2; fp-font-color-hover: #800000; fp-font-color-press: #000080; fp-justify-horiz: 0; fp-transparent: 1" fp-title=" Ασκήσεις"></a></p>
+                  <p align="center"><a href="../Exams.html"> <img style="border: 0px solid ; width: 100px; height: 20px;" id="img9" src="../buttons/exams1.gif" alt="Eξετάσεις" fp-style="fp-btn: Simple Arrow 1; fp-font-color-hover: #800000; fp-font-color-press: #000080; fp-justify-horiz: 0; fp-transparent: 1" fp-title=" Eξετάσεις" onmouseover="FP_swapImg(1,0,/*id*/'img9',/*url*/'../buttons/exams2.gif')" onmouseout="FP_swapImg(0,0,/*id*/'img9',/*url*/'../buttons/exams1.gif')" onmousedown="FP_swapImg(1,0,/*id*/'img9',/*url*/'../buttons/exams3.gif')" onmouseup="FP_swapImg(0,0,/*id*/'img9',/*url*/'../buttons/exams2.gif')" align="middle"></a></p>
+                  <p align="center"><a href="../Info.html"> <img id="img10" src="../buttons/info1.gif" alt=" Ανακοινώσεις" onmouseover="FP_swapImg(1,0,/*id*/'img10',/*url*/'../buttons/info2.gif')" onmouseout="FP_swapImg(0,0,/*id*/'img10',/*url*/'../buttons/info1.gif')" onmousedown="FP_swapImg(1,0,/*id*/'img10',/*url*/'../buttons/info3.gif')" onmouseup="FP_swapImg(0,0,/*id*/'img10',/*url*/'../buttons/info2.gif')" fp-style="fp-btn: Simple Arrow 3; fp-font-color-hover: #800000; fp-font-color-press: #000080; fp-justify-horiz: 0; fp-transparent: 1; fp-orig: 0" fp-title=" Ανακοινώσεις" border="0" height="20" width="100"></a></p>
+                  <p align="center"><a href="../Grades.html"> <img id="img14" src="../buttons/grade1.gif" alt=" Βαθμολογία" onmouseover="FP_swapImg(1,0,/*id*/'img14',/*url*/'../buttons/grade2.gif')" onmouseout="FP_swapImg(0,0,/*id*/'img14',/*url*/'../buttons/grade1.gif')" onmousedown="FP_swapImg(1,0,/*id*/'img14',/*url*/'../buttons/grade3.gif')" onmouseup="FP_swapImg(0,0,/*id*/'img14',/*url*/'../buttons/grade2.gif')" fp-style="fp-btn: Braided Column 1; fp-font-color-hover: #800000; fp-font-color-press: #000080; fp-justify-horiz: 0; fp-transparent: 1; fp-orig: 0" fp-title=" Βαθμολογία" border="0" height="20" width="100"></a></p>
+                  <p align="center"> <a href="mailto:f.ptohos@ucy.ac.cy"> <img id="img15" src="../buttons/mail1.gif" alt=" Eπικοινωνία" fp-style="fp-btn: Braided Column 3; fp-font-color-hover: #800080; fp-font-color-press: #000080; fp-justify-horiz: 0; fp-transparent: 1; fp-orig: 0" fp-title=" Eπικοινωνία" onmouseover="FP_swapImg(1,0,/*id*/'img15',/*url*/'../buttons/mail2.gif')" onmouseout="FP_swapImg(0,0,/*id*/'img15',/*url*/'../buttons/mail1.gif')" onmousedown="FP_swapImg(1,0,/*id*/'img15',/*url*/'../buttons/mail3.gif')" onmouseup="FP_swapImg(0,0,/*id*/'img15',/*url*/'../buttons/mail2.gif')" border="0" height="20" width="100"></a></p>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+            </td>
+            <td bgcolor="#000000" height="100%" width="1"> <img alt="" src="../buttons/MsSpacer.gif" height="1" width="1"></td>
+          </tr>
+          <tr>
+            <td colspan="3" bgcolor="#000000" height="1"> <img alt="" src="../buttons/MsSpacer.gif" height="1" width="1"></td>
+          </tr>
+        </tbody>
+      </table>
+      </td>
+      <td height="325">&nbsp;</td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td height="445">&nbsp;</td>
+    </tr>
+    <tr>
+      <td width="14">&nbsp;</td>
+      <td width="122">&nbsp;</td>
+      <td width="16">&nbsp;</td>
+      <td height="551" width="100%">&nbsp;</td>
+    </tr>
+    <tr>
+      <td><img alt="" src="../buttons/MsSpacer_left.gif" height="1" width="14"></td>
+      <td><br>
+      </td>
+      <td><br>
+      </td>
+      <td><br>
+      </td>
+    </tr>
+    <tr>
+      <td><img alt="" src="../buttons/MsSpacer_left.gif" height="1" width="14"></td>
+      <td><img alt="" src="../buttons/MsSpacer_left.gif" height="1" width="122"></td>
+      <td><img alt="" src="../buttons/MsSpacer_left.gif" height="1" width="16"></td>
+      <td><br>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+</body></html>

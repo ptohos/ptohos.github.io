@@ -1,0 +1,51 @@
+CMS,p,p,14000D0     !  p p collisions@CM of 14TeV
+10,4                !  No of events to generate and events to print
+HZZ4mu.dat          !  Filename for output events
+13, 0D0, 4          !  PID to select (13=muon), PTmin>0GeV, min number of muons
+!==================
+! Process handling
+!==================
+MSEL=0              ! User defined process
+MSUB(3)=1           ! Process number   3 f  + fbar-> h0
+MSUB(102)=1         ! process number 102 g  + g   -> h0
+MSUB(123)=1         ! process number 123 fi + fj  -> fi+fj+h0  WWH
+MSUB(124)=1         ! process number 124 fi + fj  -> fi+fj+h0  ZZH
+!===============================
+! Hard process parton handling
+!===============================
+PMAS(25,1)=125D0    ! Set mass of H
+!==========================
+! Decay channels hadlings
+!==========================
+25:ALLOFF           ! turn all decay channels of Higgs off
+25:ONIFMATCH 23 23  ! Allow only h0->ZZ decays
+23:ALLOFF           ! turn all decay channels of Z off
+23:ONIFMATCH 13 -13 ! Allow only Z->mumu
+!=====================================
+! Parameter sgoetting for global events
+!=====================================
+MSTP(61)=1     ! ISR   initial state radiation ON 
+MSTP(71)=1     ! FSR   final state radiation ON
+MSTP(111)=1    ! Hadronization  OFF  make the event simple
+MSTU(1)=25
+MSTU(2)=25
+!=============================================
+! Parameters for multiple interactions event
+!=============================================
+MSTP(33)=0     ! no K factors for hard interactions
+MSTP(81)=0     ! multiple parton interactions 1(ON) is Pythia default USE OFF
+MSTP(82)=4     ! Defines the multi-parton model
+MSTU(21)=1     ! Check on possible errors during program execution 
+PARP(82)=1.8387! pt cutoff for multiparton interactions
+PARP(89)=1960. ! sqrts for which PARP82 is set
+PARP(83)=0.5   ! Multiple interactions: matter distribution parameter 
+PARP(84)=0.4   ! Multiple interactions: matter distribution parameter 
+PARP(90)=0.16  ! Multiple interactions: rescaling power 
+PARP(67)=2.5   ! amount of initial-state radiation 
+PARP(85)=1.0   ! gluon prod. mechanism in MI 
+PARP(86)=1.0   ! gluon prod. mechanism in MI 
+PARP(62)=1.25  !
+PARP(64)=0.2   !
+MSTP(91)=1     !
+PARP(91)=2.1   ! kt distribution
+PARP(93)=15.0  !

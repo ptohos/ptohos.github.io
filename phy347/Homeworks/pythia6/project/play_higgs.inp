@@ -1,0 +1,30 @@
+CMS,p,p,10000D0     !  p p collisions@CM of 10TeV
+10000,4             !  No of events to generate and events to print
+H2diphoton.dat      !  Filename for output events
+22, 30D0, 2         !  Particle ID to select events, Min PT cut and No events 
+!==================
+! Process handling
+!==================
+MSEL=0
+MSUB(3)=1           ! Process number   3 f  + fbar-> h0
+MSUB(102)=1         ! process number 102 g  + g   -> h0
+MSUB(123)=1         ! process number 123 fi + fj  -> fi+fj+h0
+MSUB(124)=1         ! process number 124 fi + fj  -> fi+fj+h0
+!===============================
+! Hard process parton handling
+!===============================
+PMAS(25,1)=115D0    ! Set mass of H
+!==========================
+! Decay channels hadlings
+!==========================
+25:ALLOFF           ! turn all decay channels of 35(H) off
+25:ONIFMATCH 22 22  ! Allow only h0->gamma gamma decays
+!=====================================
+! Parameter setting for global events
+!=====================================
+MSTP(61)=0     ! ISR   initial state radiation OFF 
+MSTP(71)=0     ! FSR   final state radiation OFF
+MSTP(111)=0    ! Hadronization  OFF  make the event simple
+MSTP(81)=0     ! Multiple interactions off
+MSTU(1)=25
+MSTU(2)=25

@@ -1,0 +1,272 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta http-equiv="Content-Language" content="el">
+<title>Οι παρακάτω οδηγίες αναφέρονται</title>
+</head>
+
+<body bgcolor="#C0C0C0">
+
+				<table border="0" width="100%" height="100%" cellpadding="10" cellspacing="0" id="table6">
+					<tr>
+						<td width="100%" height="100%" valign="top" align="center">
+						<p style="margin-top: -15px">
+						&nbsp;</p>
+						<blockquote>
+							<p align="justify"><u>
+							<font size="4" color="#0000FF">Εξάσκηση με εντολές 
+							αρχείων</font></u></p>
+						</blockquote>
+						<ol>
+							<li>
+							<p align="justify">Δοκιμάστε την ακολουθία των 
+							εντολών: </p>
+							<ul>
+								<li>
+								<p align="justify"><span lang="en-us">cd&nbsp; 
+								&lt;Return&gt;</span></p></li>
+								<li>
+								<p align="justify"><span lang="en-us">pwd 
+								&lt;Return&gt;</span></p></li>
+								<li>
+								<p align="justify"><span lang="en-us">ls -al 
+								&lt;Return&gt;</span></p></li>
+								<li>
+								<p align="justify"><span lang="en-us">cd . 
+								&lt;Return&gt;</span></p></li>
+								<li>
+								<p align="justify"><span lang="en-us">pwd 
+								&lt;Return&gt;&nbsp; (</span>που βρίσκεστε?)</p></li>
+								<li>
+								<p align="justify"><span lang="en-us">cd .. 
+								&lt;Return&gt;</span></p></li>
+								<li>
+								<p align="justify"><span lang="en-us">pwd 
+								&lt;Return&gt; </span></p></li>
+								<li>
+								<p align="justify"><span lang="en-us">ls -al 
+								&lt;Return&gt;</span></p></li>
+								<li>
+								<p align="justify"><span lang="en-us">cd .. 
+								&lt;Return&gt;</span></p></li>
+								<li>
+								<p align="justify"><span lang="en-us">pwd 
+								&lt;Return&gt;</span></p></li>
+								<li>
+								<p align="justify"><span lang="en-us">ls -al 
+								&lt;Return&gt;</span></p></li>
+								<li>
+								<p align="justify"><span lang="en-us">cd .. 
+								&lt;Return&gt;</span></p></li>
+								<li>
+								<p align="justify"><span lang="en-us">pwd 
+								&lt;Return&gt; (</span>τι ακριβώς γίνεται τώρα?)</p>
+								</li>
+								<li>
+								<p align="justify"><span lang="en-us">cd /etc&nbsp; 
+								&lt;Return&gt;</span></p></li>
+								<li>
+								<p align="justify"><span lang="en-us">ls -al | 
+								more&nbsp; &lt;Return&gt; </span></p></li>
+								<li>
+								<p align="justify"><span lang="en-us">cat passwd 
+								&lt;Return&gt;</span></p></li>
+								<li>
+								<p align="justify"><span lang="en-us">cd - 
+								&lt;Return&gt;</span></p></li>
+								<li>
+								<p align="justify"><span lang="en-us">pwd 
+								&lt;Return&gt;</span></p></li>
+							</ul>
+							</li>
+							<li>
+							<p align="justify">Συνεχίστε να διερευνάτε το δέντρο 
+							του <span lang="en-us">filesystem </span>
+							χρησιμοποιώντας τις εντολές <span lang="en-us">cd, 
+							ls, pwd, </span>και <span lang="en-us">cat. </span>
+							Κοιτάξτε στους <span lang="en-us">directories </span>
+							/<span lang="en-us">bin, /usr/bin/, /sbin, /tmp,
+							</span>και /<span lang="en-us">boot. </span>Τι 
+							παρατηρείτε?</p></li>
+							<li>
+							<p align="justify">Εξετάστε το <span lang="en-us">
+							directory </span>/<span lang="en-us">dev. </span>
+							Μπορείτε να δείτε ποιές μονάδες (δίσκοι<span lang="en-us">, 
+							floppies </span>είναι στη διάθεσή σας?) Μπορείτε να 
+							βρείτε το <span lang="en-us">terminal window </span>
+							που έχετε ανοίξει (<span lang="en-us">tty)</span>? 
+							Πληκτρολογήστε <span lang="en-us">who am i</span> 
+							μπορεί να βοηθήσει. Ποιός είναι ο κάτοχος του
+							<span lang="en-us">tty </span>σας? (χρησιμοποιήστε
+							<span lang="en-us">ls -l)</span></p></li>
+							<li>
+							<p align="justify">Διερευνήστε το <span lang="en-us">
+							directory /proc. </span>Δείτε το περιεχόμενο των
+							<span lang="en-us">files interrupts, devices, 
+							cpuinfo, meminfo </span>και <span lang="en-us">
+							uptime </span>χρησιμοποιώντας την εντολή
+							<span lang="en-us">cat. </span>Αυτός ο
+							<span lang="en-us">directory (/proc) </span>είναι 
+							ένα ψευδο-<span lang="en-us">filesystem</span> που 
+							επιτρέπει να δούμε πληροφορίες σχετικά με τη δομή 
+							του λειτουργικού. </p></li>
+							<li>
+							<p align="justify">Αλλάξτε <span lang="en-us">
+							directory </span>και πηγαίνετε στον
+							<span lang="en-us">home directory </span>σας. </p>
+							</li>
+							<li>
+							<p align="justify">Δημιουργήστε τους
+							<span lang="en-us">subdirectories test </span>και
+							<span lang="en-us">Lab01. </span></p></li>
+							<li>
+							<p align="justify">Σβήστε το <span lang="en-us">
+							subdirectory test</span></p></li>
+							<li>
+							<p align="justify">Αντιγράψτε το <span lang="en-us">
+							file /etc/passwd </span>στο <span lang="en-us">home 
+							directory </span>σας.</p></li>
+							<li>
+							<p align="justify">Μετακινήστε το <span lang="en-us">
+							file </span>αυτό στο <span lang="en-us">subdirectory 
+							Lab01</span></p></li>
+							<li>
+							<p align="justify">Μετακινηθείτε στο
+							<span lang="en-us">subdirectory LAB01</span></p>
+							</li>
+							<li>
+							<p align="justify">Ποια η διαφορά με το να βλέπετε 
+							τα περιεχόμενα του <span lang="en-us">directory
+							</span>με την εντολή <span lang="en-us">ls -l </span>
+							και με την εντολή <span lang="en-us">ls -L?</span></p>
+							</li>
+							<li>
+							<p align="justify">Μπορείτε να δημιουργήσετε και 
+							μετά να σβήσετε ένα <span lang="en-us">file </span>
+							το οποίο ονομάζεται $<span lang="en-us">SHELL?
+							</span>Δοκιμάστε</p></li>
+							<li>
+							<p align="justify">Μπορείτε να δημιουργήσετε και 
+							μετά να σβήσετε ένα <span lang="en-us">file </span>
+							το οποίο ξεκινά με το χαρακτήρα #? Δοκιμάστε</p>
+							</li>
+							<li>
+							<p align="justify">Μπορείτε να δημιουργήσετε και 
+							μετά να σβήσετε ένα <span lang="en-us">file </span>
+							το οποίο ξεκινά με το χαρακτήρα -? Δοκιμάστε</p>
+							</li>
+							<li>
+							<p align="justify">Ποιό ήταν το αποτέλεσμα της 
+							εντολής <span lang="en-us">echo 
+							{con,pre}{sent,fer}{s,ed}?
+							</span>Τώρα από τον <span lang="en-us">subdirectory 
+							LAB01</span> αντιγράψτε τα /<span lang="en-us">etc/passwd
+							</span>και /<span lang="en-us">etc/group </span>στο
+							<span lang="en-us">subdirectory LAB01 </span>με μια 
+							μόνο εντολή νοουμένου ότι μπορείτε να 
+							πληκτρολογήσετε <span lang="en-us">/etc </span>μόνο 
+							μια φορά.</p></li>
+							<li>
+							<p align="justify">Από το <span lang="en-us">home 
+							directory </span>σας, αντιγράψτε όλο το
+							<span lang="en-us">subdirectory LAB01 </span>στο
+							<span lang="en-us">subdirectory test. </span>&nbsp;
+							</p></li>
+							<li>
+							<p align="justify">Σβήστε το <span lang="en-us">
+							subdirectory test </span>και όλα τα περιεχόμενά του 
+							με μια και μόνο εντολή </p></li>
+							<li>
+							<p align="justify">Πηγαίνετε σε κάποιο
+							<span lang="en-us">directory </span>που δεν κατέχετε
+							<span lang="en-us">(</span>αποφύγετε καλού κακού 
+							τους <span lang="en-us">subdirectories /proc </span>
+							και <span lang="en-us">/dev) </span>και προσπαθήστε 
+							να σβήσετε τα περιεχόμενά τους. </p></li>
+							<li>
+							<p align="justify">Πειραματιστείτε με τις επιλογές 
+							της εντολής <span lang="en-us">ls. </span>Τι ακριβώς 
+							κάνουν οι επιλογές <span lang="en-us">d, i, R </span>
+							και <span lang="en-us">F?</span></p></li>
+							<li>
+							<p align="justify">Δοκιμάστε τρεις διαφορετικούς 
+							τρόπους για να θέσετε τις άδειες πρόσβασης σε κάποιο
+							<span lang="en-us">file </span>σε <span lang="en-us">
+							r--r--r--. </span>Δημιουργήστε ένα
+							<span lang="en-us">file</span> και δείτε αν 
+							δουλεύει. </p></li>
+							<li>
+							<p align="justify">Πληκτρολογήστε <span lang="en-us">
+							umask 000 </span>και κατόπιν δημιουργήστε ένα
+							<span lang="en-us">file world.txt. </span>το οποίο 
+							περιέχει τις λέξεις &quot;<span lang="en-us">hello 
+							world&quot;. </span>Κοιτάξτε στις άδειες πρόσβασης του
+							<span lang="en-us">file. </span>Τι συνέβη<span lang="en-us"> 
+							? </span>Τώρα πληκτρολογήστε <span lang="en-us">
+							umask 22 </span>και δημιουργήστε ένα
+							<span lang="en-us">file world2.txt. </span>Πως 
+							μπορεί οι εντολές αυτές να είναι χρήσιμες?</p></li>
+							<li>
+							<p align="justify">Δημιουργήστε ένα αρχείο
+							<span lang="en-us">&quot;hello.txt&quot; </span>στο
+							<span lang="en-us">home directory </span>σας 
+							χρησιμοποιώντας την εντολή <span lang="en-us">cat -u 
+							&gt; hello.txt. </span>Ανοίξτε ένα άλλο
+							<span lang="en-us">terminal window</span> και 
+							εκτελέστε την εντολή <span lang="en-us">tail -f 
+							hello.txt. </span>Τώρα στο αρχικό <span lang="en-us">
+							terminal window </span>αρχίστε να πληκτρολογείτε 
+							κάποιο κείμενο. Τι εμφανίζεται στο δεύτερο
+							<span lang="en-us">terminal window?</span></p></li>
+							<li>
+							<p align="justify">Χρησιμοποιήστε την εντολή
+							<span lang="en-us">find </span>για να δείτε τα 
+							ονόματα όλων των αρχείων που βρίσκονται στο
+							<span lang="en-us">/home subdirectory </span>δένδρο.
+							</p></li>
+							<li>
+							<p align="justify">Χρησιμοποιήστε την εντολή
+							<span lang="en-us">find </span>για να δείτε μόνο τα
+							<span lang="en-us">files </span>το μέγεθος των 
+							οποίων είναι μεγαλύτερο από 1ΜΒ</p></li>
+							<li>
+							<p align="justify">Χρησιμοποιήστε την εντολή
+							<span lang="en-us">grep </span>για να απομονώσετε 
+							στο <span lang="en-us">file /etc/passwd </span>τη 
+							γραμμή που αναφέρεται στις λεπτομέρειες του
+							<span lang="en-us">account </span>σας.</p></li>
+							<li>
+							<p align="justify">&nbsp;Χρησιμοποιήστε το συνδυασμό των 
+							εντολών <span lang="en-us">find, grep </span>και
+							<span lang="en-us">sort</span> για να δείτε όλα τα 
+							αρχεία τα οποία βρίσκονται στο <span lang="en-us">
+							/home subdirectory </span>σας και περιέχουν την λέξη
+							<span lang="en-us">hello. </span></p></li>
+							<li>
+							<p align="justify">Χρησιμοποιήστε την εντολή
+							<span lang="en-us">locate </span>για να βρείτε όλα 
+							τα <span lang="en-us">files </span>τα οποία 
+							περιέχουν την λέξη <span lang="en-us">emacs.</span> 
+							Μπορείτε να συνδυάσετε την εντολή αυτή με την εντολή
+							<span lang="en-us">grep </span>ώστε να μη βλέπετε τα 
+							ονόματα των <span lang="en-us">files </span>που 
+							περιέχουν την λέξη <span lang="en-us">lib?</span></p>
+							</li>
+							<li>
+							<p align="justify">Πληκτρολογήστε την εντολή
+							<span lang="en-us">mount (</span>χωρίς παραμέτρους) 
+							και προσπαθήστε να καταλάβετε το νόημα του μυνήματος 
+							που βλέπετε.&nbsp; </p></li>
+						</ol>
+						</td>
+					</tr>
+					<tr>
+						<td width="100%" height="100%" valign="top" align="center">
+						&nbsp;</td>
+					</tr>
+				</table>
+				
+</body>
+
+</html>

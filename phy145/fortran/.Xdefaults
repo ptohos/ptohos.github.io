@@ -1,0 +1,38 @@
+#ifdef COLOR
+*customization: -color
+#endif
+xterm*Colors: on
+xterm*dynamicColors: on
+xterm*background: bisque
+xterm*foreground: black
+xterm*cursorColor: Red
+xterm*reverseVideo: false
+xterm*scrollBar: true
+xterm*rightScrollBar: true
+xterm*reverseWrap: true
+xterm*font: fixed
+xterm*fullCursor: true
+xterm*scrollTtyOutput: off
+xterm*scrollKey: on
+xterm*VT100.Translations: #override\n\
+	<KeyPress>Prior : scroll-back(1,page)\n\
+	<KeyPress>Next : scroll-forw(1,page)
+xterm*titleBar: true
+
+xterm_color*background: bisque
+xterm_color*foreground: black
+xterm_color*cursorColor: Red
+xterm_color*reverseVideo: false
+xterm_color*scrollBar: true
+xterm_color*rightScrollBar: true
+xterm_color*saveLines: 9999
+xterm_color*reverseWrap: true
+xterm_color*font: fixed
+xterm_color.geometry: 80x25+20+20
+xterm_color*fullCursor: true
+xterm_color*scrollTtyOutput: off
+xterm_color*scrollKey: on
+xterm_color*VT100.Translations: #override\n\
+	<KeyPress>Prior : scroll-back(1,page)\n\
+	<KeyPress>Next : scroll-forw(1,page)
+xterm_color*titleBar: true
