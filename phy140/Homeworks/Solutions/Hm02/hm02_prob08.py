@@ -12,7 +12,7 @@ def extract_lesser(mylist,N):
 #Kurio programma
 N=29
 infile=open("mylist.txt",'w')
-infile.write(19*'{:2d}\n'.format(2,12,8,28,3,23,16,32,25,-1,6,9,-2,34,48,21,31,24,43))
+infile.write((19*'{:2d}\n').format(2,12,8,28,3,23,16,32,25,-1,6,9,-2,34,48,21,31,24,43))
 infile.close()
 mylist=[]
 with open("mylist.txt",'r') as fp:
@@ -22,9 +22,7 @@ fp.close()
 
 print(mylist)
 nlist=extract_lesser(mylist,N)
-print("Oi duo listes einai:\n")
-mylist=np.array(nlist)
-nlist=np.array(nlist)
+print("Oi duo listes einai:")
 for i in mylist:
     match = False
     for j in nlist:
